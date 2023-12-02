@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* a {
+    text-decoration: none;
+    color: gray;
+    padding: 8px 16px;
+    font-weight: bolder;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.nav-title {
+    padding: 16px;
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+.nav-list-up {
+    padding: 64px 0px;
+}
+
+.nav-list-down a{
+    color: black;
+}
+
+.row:hover {
+    background-color: gray;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.content-jeans-list {
+    display: none;
+    background-color: gray;
+    color: black;
+    padding: 10px 30px;
+}
+
+.jeans-list:hover .content-jeans-list {
+    display: block;
+}
+
+.jeans-list:hover {
+    background-color: gray;
+}
+
+.jeans-list a {
+    color: black;
+    padding: 8px 0px 8px 16px;
+}
+
+
+
+@media screen and (max-width: 992px)  {
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px){
+    header {
+        display: none;
+    }
+}
+
+.header i {
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-color: black;
+    height: 80px; 
+}
+
+.header:hover i {
+    background-color: gray;
+    color: black;
+}
+
+.header h1 {
+    color: white;
+    padding: 20px 20px;
+    font-weight: lighter;
+}
