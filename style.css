@@ -79,7 +79,7 @@ li {
 }
 
 @media screen and (min-width: 992px){
-    header {
+    .header {
         display: none;
     }
 }
